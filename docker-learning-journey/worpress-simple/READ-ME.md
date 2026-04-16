@@ -14,8 +14,10 @@
 
 * **wordpress** wordpress é a imagem oficial do wordpress do Docker Hub
 
-1. Após rodar o comando  
+1. Após rodar o comando 
+--- 
 ![alt text](image-9.png)
+---
 2. Verificar se está rodando (Comando muito usado no dia a dia)
 * **docker ps**
 ---
@@ -27,15 +29,18 @@
 ---
 ![alt text](image-7.png)
 ---
+
 Observe-se que após rodar o comando, aparece que o wordpress foi baixado com sucesso no diretório /var/www/html
 Vamos abrir o navegador de tentar abrir a pagina de boas vindas do wordpress através do localhost, assim verificamos a comunicação da porta 8080 do computador com a porta 80 do container.
+
 ---
 ![alt text](image-8.png)
 ---
-
+85
 # Página aberta com sucesso !!!!!!!!
-# Vamos recaptular oque aprendemos de básico.
-**Exercicio 1: Wordpress simples- baixando a imagem do wordpress com docker run e seus demais atributos**
+# Vamos recaptular oque aprendemos de básico de um júnior.
+`O que foi feito?`
+Wordpress simples- baixando a imagem do wordpress com docker run e seus demais atributos**
 o comando usado foi **docker run -d --name  meu-wordpress-personalizado -p 8080:80 wordpress**
 
 O que cada parte significa?  
